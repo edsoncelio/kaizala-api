@@ -1,5 +1,8 @@
 ## Kaizala Python API
 
+Microsoft Kaizala is a mobile app and service designed for large group communications and work management. 
+
+---
 Environment variables:
 
 * mobile-number : Your mobile number which will be used for invoking apis
@@ -43,5 +46,6 @@ To create the variables:
 - [ ] Update bot user
 - [ ] Delete bot user
 
-reference:
+Reference:
+
 https://docs.microsoft.com/en-us/kaizala/connectors/api
