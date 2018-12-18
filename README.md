@@ -39,6 +39,9 @@ To create the variables:
 - [ ] Query members of a group
 - [ ] Remove members from a group
 
+### Content Creation APIs
+ - [ ] Send message on a group
+ 
 ### Bots
 - [ ] Create bot user
 - [ ] Get bot users
