@@ -3,14 +3,18 @@
 Microsoft Kaizala is a mobile app and service designed for large group communications and work management. 
 
 ---
-Environment variables:
+**Environment variables:**
 
-* mobile-number : Your mobile number which will be used for invoking apis
-* application-id : ID associated with the Connector
-* application-secret : Secret associated with the Connector
+* **mobile-number** : Your mobile number which will be used for invoking apis
+* **application-id** : ID associated with the Connector
+* **application-secret** : Secret associated with the Connector
+* **endpoint-url**: Response at `/accessToken` 
+* **root-url**: https://api.kaiza.la/v1
+* **refreshToken**: Response at `/accessToken` 
+* **accessToken**: Response at `/accessToken` 
 
 To create the variables:
-* Navigate to Kaizala Management Portal @ https://manage.kaiza.la/
+* Navigate to Kaizala Management Portal https://manage.kaiza.la/
 * Log in using an existing Office365 account
   * Tap on "Connectors" in the left menu
   * Tap on "Add Connector"
