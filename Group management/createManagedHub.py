@@ -1,0 +1,17 @@
+import requests
+
+url = "https://api.kaiza.la/v1/groups"
+
+payload = "{name:\"Kaizala Test Public Group\", welcomeMessage:\"Welcome 
+to public group created programmatically via Postman\", 
+members:[\"+911199999999\"], groupType:\"ConnectGroup\"}"
+headers = {
+    'Content-Type': "application/json",
+    'Authorization': "Bearer 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cm46bWljcm9zb2Z0OmNyZWRlbnRpYWxzIjoie1wicGhvbmVOdW1iZXJcIjpcIis5MTk5MTA4NzAwMDVcIixcImNJZFwiOlwiXCIsXCJ0ZXN0U2VuZGVyXCI6XCJmYWxzZVwiLFwiYXBwTmFtZVwiOlwiY29tLm1pY3Jvc29mdC5tb2JpbGUua2FpemFsYWFwaVwiLFwiYXBwbGljYXRpb25JZFwiOlwiNjk2MkQyRjYyOUNEOTFBM0ZFOEI0QkZDOUU4MEFGRkIwQTM0QTZFRUZFRjIwMjBFQjQ4NjBCQjg1OTc1MUU4NVwiLFwicGVybWlzc2lvbnNcIjpcIjIuMzA6My4xNDo0LjI6Ni4yMjo1LjQ6OS4yOjE1LjMwOjE0LjMwOjE5LjMwXCIsXCJhcHBsaWNhdGlvblR5cGVcIjozLFwiZGF0YVwiOlwie1xcXCJUZW5hbnRJZFxcXCI6XFxcIjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0N1xcXCIsXFxcIk8zNjVVc2VySWRcXFwiOlxcXCI0ZDQ1NzVjMi1lNWQ5LTQwZWItYjgzYi05MTMzMDRlNDk1YjJcXFwiLFxcXCJJc1RlbmFudEFkbWluXFxcIjpcXFwiRmFsc2VcXFwiLFxcXCJPMzY1VXNlckVtYWlsSWRcXFwiOlxcXCJwZWNob3VkaEBtaWNyb3NvZnQuY29tXFxcIixcXFwiQXBwTmFtZVxcXCI6XFxcIlBvc3RtYW5EZW1vXFxcIn1cIn0iLCJ1aWQiOiJNb2JpbGVBcHBzU2VydmljZToxMDI1OGQwMi02ZDZkLTRiMmUtYTZhZC0zNDEyMzdhNDhjM2UiLCJ2ZXIiOiIyIiwibmJmIjoxNTI2NTUwMTYwLCJleHAiOjE1MjY2MzY1NjAsImlhdCI6MTUyNjU1MDE2MCwiaXNzIjoidXJuOm1pY3Jvc29mdDp3aW5kb3dzLWF6dXJlOnp1bW8iLCJhdWQiOiJ1cm46bWljcm9zb2Z0OndpbmRvd3MtYXp1cmU6enVtbyJ9.u37IwBjkbSQ84-KR3UsY4P3ROQsroz7OtG_q5W2JCfU",
+    'cache-control': "no-cache"
+    }
+
+response = requests.request("POST", url, data=payload, headers=headers)
+
+print(response.text)
