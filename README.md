@@ -1,4 +1,4 @@
-## Kaizala Python API
+## Kaizala API
 
 Microsoft Kaizala is a mobile app and service designed for large group communications and work management. 
 
