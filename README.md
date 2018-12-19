@@ -32,22 +32,22 @@ To create the variables:
 - [x] Upload media URL (image / document / audio / album/ video)
 
 ### Group Management
-- [ ] Create a group
-- [ ] Fetch groups
-- [ ] Fetch groups with details
-- [ ] Add members to a group
-- [ ] Query members of a group
-- [ ] Remove members from a group
+- [x] Create a group
+- [x] Fetch groups
+- [x] Fetch groups with details
+- [x] Add members to a group
+- [x] Query members of a group
+- [x] Remove members from a group
 
 ### Content Creation APIs
  - [ ] Send message on a group
  
 ### Bots
-- [ ] Create bot user
-- [ ] Get bot users
-- [ ] Generate accessToken for bot user
-- [ ] Update bot user
-- [ ] Delete bot user
+- [x] Create bot user
+- [x] Get bot users
+- [x] Generate accessToken for bot user
+- [x] Update bot user
+- [x] Delete bot user
 
 Reference:
 
