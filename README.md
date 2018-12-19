@@ -1,4 +1,4 @@
-## Kaizala Python API
+## Kaizala Golang API
 
 Microsoft Kaizala is a mobile app and service designed for large group communications and work management. 
 
@@ -22,14 +22,14 @@ To create the variables:
 **IMPORTANT: Note the ID & Secret that get generated and displayed on the portal**
 
 ### Autentication
- - [ ] Generate PIN
- - [ ] Login with PIN and applicationID to get refreshToken
- - [ ] Retrieve the access token
- - [ ] Get loggedin user details
+ - [x] Generate PIN
+ - [x] Login with PIN and applicationID to get refreshToken
+ - [x] Retrieve the access token
+ - [x] Get loggedin user details
 
 ### Upload Media
-- [ ] Upload media (image / document / audio / album/ video)
-- [ ] Upload media URL (image / document / audio / album/ video)
+- [x] Upload media (image / document / audio / album/ video)
+- [x] Upload media URL (image / document / audio / album/ video)
 
 ### Group Management
 - [ ] Create a group
