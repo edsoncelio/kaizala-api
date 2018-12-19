@@ -65,6 +65,5 @@ Microsoft Kaizala is a mobile app and service designed for large group communica
 
 Reference:
 
-https://docs.microsoft.com/en-us/kaizala/connectors/api
-
-https://docs.microsoft.com/en-us/rest/kaizala/
+1. https://docs.microsoft.com/en-us/kaizala/connectors/api
+2. https://docs.microsoft.com/en-us/rest/kaizala/
