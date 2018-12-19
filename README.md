@@ -44,8 +44,18 @@ To create an Connector:
 - [x] Remove members from a group
 
 ### Content Creation APIs
- - [ ] Send message on a group
+ - [x] Send message on a group
+ - [x] Send image on a group
+ - [x] Send document on a group
+ - [x] Send audio on a group
+ - [x] Send video on a group
  
+### Subscription APIs (webhooks)
+- [x] Subscribe to all events at group level
+- [x] Subscribe to all events at action level
+- [x] Get all webhooks on a group
+- [x] Unsubscribing a webhook
+
 ### Bots
 - [x] Create bot user
 - [x] Get bot users
