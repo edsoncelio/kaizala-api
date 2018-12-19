@@ -5,8 +5,7 @@ url =
 
 payload = ""
 headers = {
-    'applicationId': 
-"E3D843F577E003A08553142B47616AE839D723B881731536F51F98D186CAD332",
+    'applicationId': "",
     'accessToken': "",
     'cache-control': "no-cache"
     }
