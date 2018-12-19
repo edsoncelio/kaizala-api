@@ -13,7 +13,7 @@ Microsoft Kaizala is a mobile app and service designed for large group communica
 * **refreshToken**: Response at `/accessToken` 
 * **accessToken**: Response at `/accessToken` 
 
-To create an Connector:
+**To create an Connector:**
 * Navigate to Kaizala Management Portal https://manage.kaiza.la/
 * Log in using an existing Office365 account
   * Tap on "Connectors" in the left menu
