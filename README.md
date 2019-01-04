@@ -63,6 +63,9 @@ Microsoft Kaizala is a mobile app and service designed for large group communica
 - [x] Update bot user
 - [x] Delete bot user
 
+### Future work
+- [ ] Add examples
+
 Reference:
 
 1. https://docs.microsoft.com/en-us/kaizala/connectors/api
